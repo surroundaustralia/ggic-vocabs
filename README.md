@@ -2,7 +2,7 @@
 
 # GGIC's Vocabularies
 
-This repository contains the source files of the (Australian) Government Geoscience Information Committee (GGIC)'s vocabularies, published as part of the [Australian Geoscience Information Network (AusGIN) network](http://www.geoscience.gov.au/). 
+This repository contains the source files of the (Australian) Government Geoscience Information Committee (GGIC)'s vocabularies, published as part of the [Australian Geoscience Information Network (AusGIN)](http://www.geoscience.gov.au/). 
 
 These vocabularies are presented as [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) vocabularies and are delivered online at:
 
