@@ -1,0 +1,1085 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type> a skos:Collection ;
+    dcterms:title "Petroleum Tenement Type - All Concepts"@en ;
+    skos:member <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_appln_section_56>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authorisation_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authority_to_prospect>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_access_authority_>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_special_prospecting_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/competitive_tender_region>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/data_acquisition_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/drilling_reservation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_for_petroleum>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_greenhouse_gas>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/greenhouse_gas_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_coastal_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_pipeline_permit_>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/oil_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/permit_to_explore>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_access_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_app>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_explorn_licence_appln>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_facility_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_public_calls>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence_aplication>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_access_authorisation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_drilling_authorisation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_67_act>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_91_act>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prospecting_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_commercial_area>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_geothermal_commercial_area>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_greenhouse_gas_storage_commercial_area>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_surveys_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/scientific_investigation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/storage>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/water_monitoring_authority> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access_authority> a skos:Concept ;
+    dcterms:source "NT, WA, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "NT: Authority granted to a permittee, licensee or the lessee of a lease granted under the repealed Act or to the holder of a petroleum title granted outside the Territory. Access authority authorises the holder to carry on in the access authority area exploration for petroleum or operations relating to the recovery of petroleum in or from the exploration permit, licence, lease or petroleum title. Petroleum Act 1984: (https://legislation.nt.gov.au/Legislation/PETROLEUM-ACT-1984). WA: (definition TBA). NOPTA: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Access Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "NSW: ASSESSMENT APPLICATION (1992)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Assessment Lease Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_appln_section_56> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Assessment Lease Appl'n (Section 56)"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "SA: Licence to carry out regulated activities outside of the area of the primary licence. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Associated Activities Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "SA: Application for a licence to carry out regulated activities outside of the area of the primary licence. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Associated Activities Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "SA: Superseded by Associated Activities Licence. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Associated Facilities Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "SA: Superseded by Associated Activities Licence Application. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Associated Facilities Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authorisation_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "9.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Authorisation Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authority_to_prospect> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "QLD: To explore for petroleum, oil, coal seam gas and natural gas in Queensland, you must hold a current authority to prospect (ATP). An ATP allows you to: Explore for petroleum Test for petroleum production, Evaluate the feasibility of petroleum production, Evaluate or test natural underground reservoirs for the storage of petroleum or a prescribed storage gas."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/AuthorityToProspect> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Authority to Prospect"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_access_authority_> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Access Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_exploration_permit> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Exploration Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_pipeline_licence> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Pipeline Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_production_licence> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Production Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_retention_licence> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Retention Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_special_prospecting_authority> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:definition "NT: Petroleum (Submerged Lands) Act 1981: (https://legislation.nt.gov.au/Legislation/PETROLEUM-SUBMERGED-LANDS-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Coastal Special Prospecting Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/competitive_tender_region> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous> ;
+    skos:definition "SA: Highly prospective areas restricted from over-the-counter licence applications. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "9.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Competitive Tender Region"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/data_acquisition_authority> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "QLD: A data acquisition authority (DAA) authorises you to conduct limited geophysical survey activities and collect data outside the area of your authority to prospect (ATP) or petroleum lease (PL). A DAA is only granted on land that is contiguous to the granted ATP or PL and for activities that are directly relevant to authorised activities of your ATP or PL."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/DataAcquisitionAuthority> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Data Acquisition Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/drilling_reservation> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Drilling Reservation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_for_petroleum> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "SA: Permit to explore for petroleum in Commonwealth waters. (https://www.legislation.gov.au/Details/C2017C00051)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Exploration Permit for Petroleum"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_geothermal> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal> ;
+    skos:definition "QLD: An EPG allows you to explore for geothermal resources and evaluate the feasibility of geothermal production, including by production testing."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/ExplorationPermitGeothermal> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.1.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Exploration Permit Geothermal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_greenhouse_gas> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas> ;
+    skos:definition "QLD: To search for greenhouse gas (GHG) capture and storage locations in Queensland you need an exploration permit for greenhouse gas (EPQ). An EPQ allows you to explore for GHG storage reservoirs within the permit area. It also allows you to carry out injection testing (with ministerial approval) and activities necessary for exploration."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/ExplorationPermitGreenhouseGas> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.2.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Exploration Permit Greenhouse Gas"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas> ;
+    skos:definition "SA: Licence to explore for a natural reservoir for the purposes fo gas storage. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.2.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Gas Storage Exploration Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas> ;
+    skos:definition "SA: Application for a licence to explore for a natural reservoir for the purposes of gas storage. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.2.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Gas Storage Exploration Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal> ;
+    skos:definition "SA: Licence to explore for geothermal energy. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.1.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Exploration Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal> ;
+    skos:definition "SA: Application for licence to explore for geothermal energy. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.1.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Exploration Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_lease> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_geothermal> ;
+    skos:definition "QLD: Geothermal leases are long-term authorities to allow the commercial development of the resource. A geothermal lease allows you to carry out a range of activities related to exploration, testing and production of geothermal energy."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/GeothermalLease> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.1.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Licence to establich the nature and extent of a discovery of geothermal energy. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Retention Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Application for a licence to establich the nature and extent of a discovery of geothermal energy. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Retention Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Licence to establich the nature and extent of a discovery of a natural reservoir for the purposes of gas storage. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Storage Retention Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Application for a licence to establich the nature and extent of a discovery of natural reservoir for the purposes of gas storage. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Geothermal Storage Retention Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/greenhouse_gas_lease> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/storage> ;
+    skos:definition "QLD: Greenhouse gas (GHG) injection and storage leases (QLs) are long-term authorities to allow you to commercially develop a storage site. A QL allows you to: Explore for GHG storage areas; Evaluate the feasibility of GHG stream storage, including GHG storage injection testing; Compress or otherwise process a GHG stream for GHG stream storage; Store a GHG stream; Monitor and verify the behaviour of the GHG streams.Monitor and verify the behaviour of the GHG streams."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/GreenhouseGasLease> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "8.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Greenhouse Gas Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_coastal_exploration_permit> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Historic Coastal Exploration Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_pipeline_permit_> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Historic Onshore Pipeline Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_production_licence> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Historic Onshore Production Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure_licence> a skos:Concept ;
+    dcterms:source "WA, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "6.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Infrastructure Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Pipeline Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "NSW: OFFSHORE APPLICATION (1991)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Pipeline Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Production Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "NSW: OFFSHORE APPLICATION"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Production Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Retention Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Offshore Petroleum Retention Lease Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/oil_permit> a skos:Concept ;
+    dcterms:source "NT, WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NT: Repealed Petroleum (Prospecting and Mining) Act: (https://dpir.nt.gov.au/__data/assets/pdf_file/0009/258975/Petroleum_Prospecting_Mining_Act.pdf). Titles remain in force by virtue of section 119 of the Petroleum Act 1984. WA: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Oil Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/permit_to_explore> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Permit to Explore"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_access_authority> a skos:Concept ;
+    dcterms:source "VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "VIC: Authority to carry out certain exploration operations or recovery of petroleum within the holders authority area (https://www.legislation.vic.gov.au/in-force/acts/offshore-petroleum-and-greenhouse-gas-storage-act-2010/014)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Access Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Assessment Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "NSW: ASSESSMENT APPLICATION (1991)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Assessment Lease Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence> a skos:Concept ;
+    dcterms:source "SA, NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "SA: Licence to explore for petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF). NSW: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Exploration Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "SA: Application for a licence to explore for petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Exploration Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit> a skos:Concept ;
+    dcterms:source "VIC, NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "VIC: Permit to explore for or recover petroleum within the permit area. (https://www.legislation.vic.gov.au/in-force/acts/petroleum-act-1998/025, https://www.legislation.vic.gov.au/in-force/acts/offshore-petroleum-and-greenhouse-gas-storage-act-2010/014). NSW: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Exploration Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_app> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Exploration Permit App"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NSW: EXPLORING APPLICATION (1982)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Exploration Permit Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_explorn_licence_appln> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NSW: EXPLORING APPLICATION (1991)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Explor'n Licence Appl'n"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_facility_licence> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure> ;
+    skos:definition "QLD: You will require a petroleum facility licence (PFL) for a processing, refining, storage or transport facility if the facility is not already covered by your petroleum lease or pipeline licence. The PFL will give you the right to construct and operate the facility on 'petroleum facility land'. This is defined as land that you either own or over which you have: An easement; A written agreement with a landowner to enter to construct and operate the facility on their land; A Part 5 permission."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PetroleumFacilityLicence> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "6.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Facility Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_lease> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "QLD: You can apply for a petroleum lease over an area of your authority to prospect (ATP) if you make a discovery that is currently commercially viable. If the lease is granted, the area is excised from the ATP."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PetroleumLease> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Mining Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Mining Lease Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_pipeline_licence> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "QLD: To construct a petroleum pipeline outside the area of your petroleum lease, you need a petroleum pipeline licence (PPL). The PPL gives you the right to construct and operate the pipeline on designated 'pipeline land.' This is defined as land that you either own or over which you have: An easement; A written agreement with the landowner to enter to construct and operate the pipeline; A Part 5 permission."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PetroleumPipelineLicence> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Pipeline Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Production Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease_application> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "NSW: MINING APPLICATION (1991)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Production Lease Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence> a skos:Concept ;
+    dcterms:source "SA, VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "SA: Licence to recover and process petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF). VIC: Licence to produce or explore for petroleum within the licence area. (https://www.legislation.vic.gov.au/in-force/acts/petroleum-act-1998/025, https://www.legislation.vic.gov.au/in-force/acts/offshore-petroleum-and-greenhouse-gas-storage-act-2010/014)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Production Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "SA: Application for a licence to recover and process petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Production Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_public_calls> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous> ;
+    skos:definition "SA: Areas offered for competitive bidding. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "9.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Public Calls"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_lease> a skos:Concept ;
+    dcterms:source "VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "VIC: Extension of exploration permit due to the discovery of petroleum, a production licence maybe subsequently granted. (https://www.legislation.vic.gov.au/in-force/acts/petroleum-act-1998/025, https://www.legislation.vic.gov.au/in-force/acts/offshore-petroleum-and-greenhouse-gas-storage-act-2010/014)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Retention Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Licence to establich the nature and extent of a discovery of petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Retention Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence_aplication> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "SA: Application for a licence to establich the nature and extent of a discovery of petroleum. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Retention Licence Aplication"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_access_authorisation> a skos:Concept ;
+    dcterms:source "VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> ;
+    skos:definition "VIC: Special access authority for specific purposes, not necessarily the authority holder of the PEP, PRL or PPL. (https://www.legislation.vic.gov.au/in-force/acts/petroleum-act-1998/025)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "4.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Special Access Authorisation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_drilling_authorisation> a skos:Concept ;
+    dcterms:source "VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "VIC: Allows the holder to carry out petroleum exploration activities within the PSDA area. (https://www.legislation.vic.gov.au/in-force/acts/petroleum-act-1998/025)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Special Drilling Authorisation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_67_act> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NSW: EXPLORING APPLICATION (1967)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.12"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Special Prosp Auth Appn (67 Act)"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_91_act> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NSW: EXPLORING APPLICATION (1991)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.13"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Special Prosp Auth Appn (91 Act)"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prospecting_authority> a skos:Concept ;
+    dcterms:source "NSW"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.14"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Special Prospecting Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_survey_licence> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "QLD: A petroleum survey licence (PSL) gives you the right to enter land to survey the proposed route of a pipeline or the suitability of land for a petroleum facility licence. It can be granted for a maximum of 2 years and only allows you to conduct activities that have a minimal impact on the land. There are no area limitations."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PetroleumSurveyLicence> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Petroleum Survey Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence> a skos:Concept ;
+    dcterms:source "NT, WA, NOPTA, SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "NT: A licence to commence, or continue, the construction of a pipeline; or alter or reconstruct a pipeline and to operate a pipeline. Energy Pipelines Act: (https://legislation.nt.gov.au/Legislation/ENERGY-PIPELINES-ACT-1981). SA: Licence to construct, operate and maintain a transmission pipline. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pipeline Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "SA: Application for a licence to construct, operate and maintain a transmission pipline. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pipeline Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_permit> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> ;
+    skos:definition "NT: A permit to enter land for the purpose of determining the route of the proposed pipeline, the situation of the proposed apparatus or works and the land, if any, to be used for the purpose of gaining access to the proposed pipeline and proposed apparatus or works. Energy Pipelines Act: (https://legislation.nt.gov.au/Legislation/ENERGY-PIPELINES-ACT-1981)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "7.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pipeline Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_commercial_area> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "QLD: You can apply to have an area of your authority to prospect (ATP) declared as a potential commercial area (PCA) so that you can evaluate the potential production and market opportunities for the resource. The PCA is a way of retaining an area of your ATP beyond its term to provide extra time to commercialise the resource. The maximum term for an ATP is 12 years, while the declaration for the PCA can be for up to 15 years. When you apply for a PCA, you must include a commercial viability report that shows that the area is likely to be commercially viable within 15 years. You must also include an evaluation program showing how you will overcome any factors inhibiting the commercial viability of the project."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PotentialCommercialArea> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.12"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Potential Commercial Area"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_geothermal_commercial_area> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "QLD: If you discover commercial quantities of geothermal resources, you can apply to have an area of your exploration permit declared as a potential geothermal commercial area (PGA). This will allow you to evaluate the potential production and market opportunities for the resource. When an area is declared as a potential commercial area, it remains part of the exploration permit. The land must be brought into production through an application for a production lease within 5 years of the declaration or before the exploration permit expires. If you do not make an application for a lease within the accepted time frame, the potential commercial area lapses and the land ceases to be part of the exploration permit."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PotentialGeothermalCommercialArea> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.13"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Potential Geothermal Commercial Area"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_greenhouse_gas_storage_commercial_area> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/storage> ;
+    skos:definition "QLD: If you discover a potential storage area, you can apply to have an area of your exploration permit declared as a potential greenhouse gas storage commercial area (PSA). This will allow you to evaluate the area's potential and market opportunities"@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/PotentialGreenhouseGasStorageCommercialArea> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "8.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Potential Greenhouse Gas Storage Commercial Area"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_survey_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "SA: Licence to carry out a survey, environmental evaluation of other form of assessment. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Preliminary Survey Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_surveys_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "SA: Appplication for licence to carry out a survey, environmental evaluation of other form of assessment. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Preliminary Surveys Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_lease> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "NT: Repealed Petroleum (Prospecting and Mining) Act: (https://dpir.nt.gov.au/__data/assets/pdf_file/0009/258975/Petroleum_Prospecting_Mining_Act.pdf). Titles remain in force by virtue of section 119 of the Petroleum Act 1984"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Production Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_licence> a skos:Concept ;
+    dcterms:source "NOPTA, NT, WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:definition "NT: A production licence gives the companies the right to explore, test for and produce hydrocarbons from within a licence area. It gives the right to carry out operations to recover petroleum within a licence area, e.g. drilling a development well. Petroleum Act 1984: (https://legislation.nt.gov.au/Legislation/PETROLEUM-ACT-1984). WA: (definition TBA). NOPTA: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "2.2.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Production Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_lease> a skos:Concept ;
+    dcterms:source "WA, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.14"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Retention Lease"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_licence> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> ;
+    skos:definition "NT: A Retention Licence or lease allows the companies to work towards making a discovered resource commercially viable. Petroleum Act 1984: (https://legislation.nt.gov.au/Legislation/PETROLEUM-ACT-1984)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "3.15"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Retention Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/scientific_investigation> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Scientific Investigation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure> ;
+    skos:definition "SA: Licence to estabish and operate facilities associated with searching for, processing or producing regulated substances. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "6.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Special Facilities Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure> ;
+    skos:definition "SA: Application for licence to estabish and operate facilities associated with searching for, processing or producing regulated substances. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "6.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Special Facilities Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "SA: Authority to undertake petroleum exploration operations, other than drilling a well in Commonwealth waters. (https://www.legislation.gov.au/Details/C2017C00051)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.15"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Special Prospecting Authorities"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "SA: Applicationn for authority to undertake petroleum exploration operations, other than drilling a well in Commonwealth waters. (https://www.legislation.gov.au/Details/C2017C00051)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.16"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Special Prospecting Authorities Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "SA: Non-exclusive licence to carry out limited exploration activity. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Speculative Survey Licence"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence_application> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "SA: Application for non-exclusive licence to carry out limited exploration activity. (https://www.legislation.sa.gov.au/LZ/C/A/PETROLEUM%20AND%20GEOTHERMAL%20ENERGY%20ACT%202000/CURRENT/2000.60.AUTH.PDF)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Speculative Survey Licence Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/water_monitoring_authority> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> ;
+    skos:definition "QLD: As the holder of a mining lease, mineral development licence, authority to prospect or petroleum lease, you have an obligation to make good any damage you cause to surrounding water bores. You can apply for a water monitoring authority over land outside the area of your lease/licence to comply with your obligations."@en ;
+    skos:exactMatch <http://linked.data.gov.au/def/qld-resource-permit/WaterMonitoringAuthority> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "5.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Water Monitoring Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit> a skos:Concept ;
+    dcterms:source "NT, NOPTA"@en,
+        "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:definition "NT: An Exploration Permit gives the companies the exclusive right to explore but not produce petroleum in the title area. It allows companies to carry out exploratory operations (airborne and ground based geophysical surveys and well drilling) for oil and gas and operations to establish the nature and extent of a petroleum resource which is discovered and the feasibility of production. Petroleum Act 1984: (https://legislation.nt.gov.au/Legislation/PETROLEUM-ACT-1984). NOPTA: (definition TBA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.3.2"^^<LocalHierarchyKey>,
+        "1.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Exploration Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_geothermal> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production> ;
+    skos:definition "A licence, permit, or authority to extract or process a geothermal energy resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_lease> ;
+    skos:notation "2.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "production - geothermal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authority> a skos:Concept ;
+    dcterms:source "NOPTA"@en,
+        "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:notation "1.10"^^<LocalHierarchyKey>,
+        "1.3.17"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Special Prospecting Authority"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/storage> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to store a commodity."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/greenhouse_gas_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_greenhouse_gas_storage_commercial_area> ;
+    skos:notation "8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "storage"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:definition "A licence, permit, or authority to explore for a geothermal energy resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_exploration_licence_application> ;
+    skos:notation "1.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "exploration - geothermal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:definition "A licence, permit, or authority to explore for a greenhouse gas resource or storage site."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_greenhouse_gas>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/gas_storage_exploration_licence_application> ;
+    skos:notation "1.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "exploration - greenhouse gas"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A miscellaneous licence, permit, or authority not otherwise described in this vocabulary."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authorisation_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/competitive_tender_region>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_public_calls> ;
+    skos:notation "9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "miscellaneous"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to establish or operate infrastructure for the exploration or production of a commodity."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_facility_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_facilities_licence_application> ;
+    skos:notation "6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "infrastructure"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to extract or process a resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> ;
+    skos:notation "2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "production"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to prepare for, build, or maintain a pipeline."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_onshore_pipeline_permit_>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_pipeline_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline_permit> ;
+    skos:notation "7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "pipeline"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to carry out certain exploration or other operations within or outside the holder's authority area."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_activities_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/associated_facilities_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_access_authority_>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/data_acquisition_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_access_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_access_authorisation> ;
+    skos:notation "4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "access"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to explore for a resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_special_prospecting_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/drilling_reservation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_geothermal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_greenhouse_gas>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/historic_coastal_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/permit_to_explore>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authority> ;
+    skos:notation "1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "exploration"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_petroleum> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production> ;
+    skos:definition "A licence, permit, or authority to extract or process a petroleum (hydrocarbon) resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_production_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_mining_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_production_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production_licence> ;
+    skos:notation "2.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "production - petroleum"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to carry out survey, scientific study, other preliminary exploration activities within or outside the authority area."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment_lease_appln_section_56>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_assessment_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/preliminary_surveys_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/scientific_investigation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/speculative_survey_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/water_monitoring_authority> ;
+    skos:notation "5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "assessment"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "A licence, permit, or authority to invesitgate or evaluate the feasibility to exploit or store a discovered resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/coastal_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_retention_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/geothermal_storage_retention_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/offshore_petroleum_retention_lease_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_retention_licence_aplication>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_commercial_area>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/potential_geothermal_commercial_area>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_lease>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention_licence> ;
+    skos:notation "3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "retention"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_petroleum> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration> ;
+    skos:definition "A licence, permit, or authority to explore for a petroleum (hydrocarbon) resource."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/authority_to_prospect>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration_permit_for_petroleum>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/oil_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_licence_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_app>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_exploration_permit_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_explorn_licence_appln>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_drilling_authorisation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_67_act>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prosp_auth_appn_91_act>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/petroleum_special_prospecting_authority>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authorities_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/special_prospecting_authority> ;
+    skos:notation "1.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "exploration - petroleum"@en .
+
+<http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_type> a skos:ConceptScheme ;
+    dcterms:creator "GGIC Petroleum Data Working Group" ;
+    dcterms:date "2021-03-17" ;
+    dcterms:description "This vocabulary maps all terms used by Australian State, Territory and Commonwealth jurisdictions to describe types of petroleum tenements to a common simplified classification."@en ;
+    dcterms:title "Petroleum Tenement Type"@en ;
+    skos:changeNote "2021-03-17 - Ollie Raymond - Original SKOS implementation"@en ;
+    skos:editorialNote "This file contains the 2021.01 SKOS-RDF version of the GGIC Petroleum Tenement Type vocabulary; adopted April 2021; converted to MS Excel XML for SKOS generation using SKOS_from_XLS_2019.01.xslt"@en ;
+    skos:hasTopConcept <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/access>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/assessment>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/exploration>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/infrastructure>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/miscellaneous>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/pipeline>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/production>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/retention>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_type/storage> .
+

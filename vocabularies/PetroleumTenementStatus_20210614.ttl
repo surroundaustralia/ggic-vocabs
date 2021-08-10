@@ -1,0 +1,733 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status> a skos:Collection ;
+    dcterms:title "Petroleum Tenement Status - All Concepts"@en ;
+    skos:member <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/abandoned>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/active>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_cancelled>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_lapsed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_pending>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_withdrawn>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_ministerial_decision>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_payment_confirmation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cancelled>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased_to_operate>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application_issued>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_public_notice_issued>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cessation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/competing_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conditionally_surrendered>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/consolidation_cancellation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conversion_of_ml_to_mc>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/deemed_abandoned>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired_-_blocks_encumbered>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/exploration_permit_proposal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extended>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extension_renewal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/finalised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/for_grant>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/in_progress>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/mining_permit_status>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current_unfinalised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/not_accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/on-hold_oil_shale_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/paid>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_authorised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_pending>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_ceased_to_operate>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_drilling_reservation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_renewal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_surrender>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_suspension>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/preferred_tenderer>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/prelodgement>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/priority_applicant>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proceed_with_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposal_accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ranked>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/refusal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/rejected>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_application_rejected>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_lodged>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_withdrawn>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/revoked>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/secondary_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/sub-blocks_all_relinquished>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/submitted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/surrendered>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/suspended_condition>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/term_extended>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/terminated>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/tribunal_recommendation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unfinalised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unsuccessful_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/withdrawn> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/abandoned> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Abandoned"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/accepted> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_ministerial_decision>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conversion_of_ml_to_mc>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_lodged>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_withdrawn> ;
+    skos:notation "3.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Accepted"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/active> a skos:Concept ;
+    dcterms:source "WA, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Active"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_cancelled> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:definition "Application was granted but was Cancelled by the Department (SA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application Cancelled"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_lapsed> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application lapsed"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_pending> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.1000000000000001"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application Pending"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_withdrawn> a skos:Concept ;
+    dcterms:source "SA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:definition "Application was Withdrawn by the Applicant (SA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application Withdrawn"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_ministerial_decision> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Awaiting Ministerial decision"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_payment_confirmation> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Awaiting payment confirmation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cancelled> a skos:Concept ;
+    dcterms:source "QLD, WA, VIC, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:definition "Application was granted but was Cancelled by the Department (VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Cancelled"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased> a skos:Concept ;
+    dcterms:source "NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Ceased"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased_to_operate> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Ceased to Operate"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Certificate of Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application_issued> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Certificate of Application issued"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_public_notice_issued> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Certificate of Public Notice issued"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cessation> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Cessation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/competing_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Competing Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conditionally_surrendered> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Conditionally surrendered"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/consolidation_cancellation> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Consolidation cancellation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conversion_of_ml_to_mc> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Conversion of ML to MC"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/deemed_abandoned> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Deemed abandoned"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired_-_blocks_encumbered> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired_-_blocks_encumbered> ;
+    skos:notation "4.9.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Expired - Blocks Encumbered"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/exploration_permit_proposal> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Exploration Permit Proposal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extended> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Extended"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extension_renewal> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Extension Renewal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/finalised> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Finalised"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/for_grant> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "For Grant"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/in_progress> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.8.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "In progress"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/mining_permit_status> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Mining Permit Status"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current_unfinalised> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:definition "The Resource Authority is non-current but still has outstanding issues to be completed (e.g., rent and reports). (QLD)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Non-current unfinalised"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/not_accepted> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Not accepted"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/on-hold_oil_shale_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "On-hold Oil Shale Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/paid> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.8.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Paid"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_authorised> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/prelodgement> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.14.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Payment authorised"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_pending> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.8.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Payment pending"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_application> a skos:Concept ;
+    dcterms:source "NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.12"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_ceased_to_operate> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Ceased to operate"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Extension"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_drilling_reservation> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Extension Drilling Reservation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_exploration_permit> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Extension Exploration Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_renewal> a skos:Concept ;
+    dcterms:source "SA, VIC, NOPTA, WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:definition "Authority Needs to be Renewed or it will Expire Soon (SA, VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Renewal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_surrender> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Surrender"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_suspension> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.10.7"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending Suspension"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/preferred_tenderer> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.13"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Preferred Tenderer"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/priority_applicant> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.15"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Priority Applicant"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proceed_with_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.16"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Proceed with Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposal_accepted> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.17"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Proposal accepted"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposed> a skos:Concept ;
+    dcterms:source "NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.18"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Proposed"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ranked> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.19"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Ranked"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/refusal> a skos:Concept ;
+    dcterms:source "SA, VIC"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:definition "Application was Refused (SA, VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.5"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Refusal"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/rejected> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Rejected"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_application_rejected> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.12"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Renewal Application rejected"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_lodged> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Renewal lodged"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_withdrawn> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Renewal withdrawn"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewed> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.11"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Renewed"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.13"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Replacement Permit"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.20"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Replacement Permit Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/revoked> a skos:Concept ;
+    dcterms:source "NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.14"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Revoked"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/secondary_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.21"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Secondary Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/sub-blocks_all_relinquished> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.15"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Sub-blocks all relinquished"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/submitted> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:definition "An application has been started in MyMinesOnline, but has not yet been lodged. (QLD)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.22"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Submitted"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/surrendered> a skos:Concept ;
+    dcterms:source "NOPTA, QLD, SA, VIC, WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:definition "Authority was Granted, but was Surrendered (SA, VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.16"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Surrendered"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/suspended_condition> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.17"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Suspended Condition"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/term_extended> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.12"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Term Extended"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/terminated> a skos:Concept ;
+    dcterms:source "NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.18"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Terminated"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/tribunal_recommendation> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "1.23"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Tribunal Recommendation"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unfinalised> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.19"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Unfinalised"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unsuccessful_application> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.6"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Unsuccessful Application"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/withdrawn> a skos:Concept ;
+    dcterms:source "VIC, QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> ;
+    skos:definition "Application was Withdrawn by the Applicant (VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "2.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Withdrawn"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired> a skos:Concept ;
+    dcterms:source "QLD, WA, SA, VIC, NOPTA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:definition "Authority was Granted but Expired (SA, VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "4.9"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Expired"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/prelodgement> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> ;
+    skos:definition "The application has been started in MyMinesOnline, but has not yet been lodged. (QLD)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_authorised> ;
+    skos:notation "1.14"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Prelodgement"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded> a skos:Concept ;
+    dcterms:source "QLD"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> ;
+    skos:definition "The application has been discarded from the system."@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/in_progress>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/paid>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/payment_pending> ;
+    skos:notation "4.8"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Discarded"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted> a skos:Concept ;
+    dcterms:source "QLD, NT"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:definition "The Resource Authority has been approved under the Resource Authority Legislation"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:notation "3.4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Granted"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> a skos:Concept ;
+    dcterms:source "GGIC, SA, VIC"@en ;
+    skos:definition "A licence, permit, or authority that is current (eg, granted) (GGIC); Authority granted by the Department (SA, VIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/active>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extended>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/extension_renewal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/granted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/term_extended> ;
+    skos:notation "3"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Current"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending> a skos:Concept ;
+    dcterms:source "WA"@en ;
+    skos:broader <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current> ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_ceased_to_operate>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_drilling_reservation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_extension_exploration_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_renewal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_surrender>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_suspension> ;
+    skos:notation "3.10"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Pending"@en .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current> a skos:Concept ;
+    dcterms:source "GGIC"@en ;
+    skos:definition "An application for a licence, permit, or authority that was unsuccessful or refused (GGIC)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/abandoned>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_cancelled>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_withdrawn>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/conditionally_surrendered>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/not_accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/refusal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unsuccessful_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/withdrawn> ;
+    skos:notation "2"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application non-current"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> a skos:Concept ;
+    dcterms:source "GGIC, QLD"@en ;
+    skos:definition "A licence, permit, or authority that is not current (eg, expired, cancelled, superseded) (GGIC); The Resource Authority has been terminated in the system and is longer current. (QLD)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_lapsed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cancelled>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ceased_to_operate>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/cessation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/consolidation_cancellation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/deemed_abandoned>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/discarded>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/expired>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/finalised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/rejected>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/renewal_application_rejected>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/revoked>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/sub-blocks_all_relinquished>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/surrendered>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/suspended_condition>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/terminated>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/unfinalised> ;
+    skos:notation "4"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Non-current"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> .
+
+<http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application> a skos:Concept ;
+    dcterms:source "GGIC, QLD, NT, SA, VIC"@en ;
+    skos:definition "An application for a licence, permit, or authority that has not been assessed or granted (GGIC); An application has been submitted and an outcome is pending (QLD); Application under consideration by the Department (SA)"@en ;
+    skos:inScheme <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> ;
+    skos:narrower <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_pending>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/awaiting_payment_confirmation>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_application_issued>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/certificate_of_public_notice_issued>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/competing_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/exploration_permit_proposal>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/for_grant>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/mining_permit_status>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current_unfinalised>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/on-hold_oil_shale_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/pending_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/preferred_tenderer>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/prelodgement>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/priority_applicant>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proceed_with_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposal_accepted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/proposed>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/ranked>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/replacement_permit_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/secondary_application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/submitted>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/tribunal_recommendation> ;
+    skos:notation "1"^^<LocalHierarchyKey> ;
+    skos:prefLabel "Application"@en ;
+    skos:topConceptOf <http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> .
+
+<http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum_tenement_status> a skos:ConceptScheme ;
+    dcterms:creator "GGIC Petroleum Data Working Group" ;
+    dcterms:date "2021-06-14" ;
+    dcterms:description "This vocabulary maps all terms used by Australian State, Territory and Commonwealth jurisdictions to describe the status of petroleum tenement to a common simplified classification."@en ;
+    dcterms:title "Petroleum Tenement Status"@en ;
+    skos:changeNote "2021-06-14 - Ollie Raymond - Original SKOS implementation"@en ;
+    skos:editorialNote "This file contains the 2021.01 SKOS-RDF version of the GGIC Petroleum Tenement Type vocabulary; adopted April 2021; converted to MS Excel XML for SKOS generation using SKOS_from_XLS_2019.01.xslt"@en ;
+    skos:hasTopConcept <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/application_non-current>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/current>,
+        <http://resource.geoscience.gov.au/classifier/ggic/petroleum_tenement_status/non-current> .
+
