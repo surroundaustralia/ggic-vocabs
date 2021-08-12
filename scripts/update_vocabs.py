@@ -37,8 +37,14 @@ def add_vocabs(vocabs: List[Path], mappings: dict):
         )
         assert 200 <= r.status_code <= 300, "Status code was {}".format(r.status_code)
     
+    endpoint = ""
+
     if DB_TYPE == "fuseki":
         endpoint = f"{BASE_DB_URI}/update"
+    elif DB_TYPE == "graphdb":
+        endpoint = f"{BASE_DB_URI}/statements"
+    else: # unsupported db type
+        raise ValueError("Unsupported DB type. Supported types are: 'fuseki', 'graphdb'.")
     
     # re-add remaining vocabs in directory to default graph
     for f in Path(__file__).parent.parent.glob("vocabularies/*.ttl"):
@@ -119,7 +125,7 @@ if __name__ == "__main__":
     # for testing, includes index.json as mapping dict
     # index = json.load(open(Path(__file__).parent.parent / "vocabularies" / "index.json", "r"))
     # remove_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
-    # add_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
+    add_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
 
     # for testing, simple mapping dict (until exit()):
     # add_vocabs([Path(__file__).parent.parent / "vocabularies" / "valid.ttl"], {"valid.ttl": URIRef("http://test.com")})
