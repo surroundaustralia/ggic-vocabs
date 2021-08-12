@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # for testing, includes index.json as mapping dict
     # index = json.load(open(Path(__file__).parent.parent / "vocabularies" / "index.json", "r"))
     # remove_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
-    add_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
+    # add_vocabs([Path(__file__).parent.parent / "vocabularies" / "tenement-status.ttl"], index)
 
     # for testing, simple mapping dict (until exit()):
     # add_vocabs([Path(__file__).parent.parent / "vocabularies" / "valid.ttl"], {"valid.ttl": URIRef("http://test.com")})
